@@ -11,8 +11,6 @@ Este proyecto está diseñado para aprender:
 - Cómo integrar un frontend consumiendo tu propia API local
 - Buenas prácticas en arquitectura, modularización y estructura de archivos
 
----
-
 ## Características principales
 
 - Node.js puro con ES Modules
@@ -25,15 +23,11 @@ Este proyecto está diseñado para aprender:
 - Código limpio, comentado y educativo
 - Preparado para extender con filtros, búsqueda avanzada, tipos, etc.
 
----
-
 ## Requisitos
 
 - Node.js 18 o superior
 - Navegador moderno
 - Editor recomendado: VSCode
-
----
 
 ## Instalación
 
@@ -50,8 +44,6 @@ Instala dependencias (solo dev, si las hubiese):
 npm install
 ```
 
----
-
 ## Scripts disponibles
 
 Iniciar el servidor en modo desarrollo:
@@ -65,8 +57,6 @@ Iniciar servidor en modo producción:
 ```bash
 npm start
 ```
-
----
 
 ## Estructura del proyecto
 
@@ -95,8 +85,6 @@ Esta estructura imita una arquitectura backend real, separando:
 - Routers
 - Frontend separado en su propia carpeta
 
----
-
 ## Endpoints del Proxy
 
 ### Listar Pokémon
@@ -116,8 +104,6 @@ Ejemplo:
 ```
 GET /api/pokemon/pikachu
 ```
-
----
 
 ## Frontend incluido
 
@@ -141,8 +127,6 @@ Solo abre el archivo:
 frontend/index.html
 ```
 
----
-
 ## Cómo funciona el proxy
 
 1. El frontend nunca llama directamente a la PokeAPI externa.
@@ -165,8 +149,6 @@ frontend/index.html
 Ventaja:
 Puedes **controlar**, **filtrar**, **cachear** y **expandir** la API sin límites.
 
----
-
 ## Ejemplo de respuesta
 
 ```json
@@ -184,8 +166,6 @@ Puedes **controlar**, **filtrar**, **cachear** y **expandir** la API sin límite
 }
 ```
 
----
-
 ## Roadmap
 
 - Filtros por tipo
@@ -195,8 +175,6 @@ Puedes **controlar**, **filtrar**, **cachear** y **expandir** la API sin límite
 - Detalles del Pokémon con estadísticas
 - Integrar imágenes high-resolution
 - Sistema de rate limiting opcional
-
----
 
 ## Licencia
 
@@ -213,15 +191,11 @@ GitHub: [https://github.com/OslarCode/OslarCode](https://github.com/OslarCode/Os
 Licencia completa:
 [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
 
----
-
 ## Autor
 
 **OslarCode**
 Desarrollador y formador especializado en backend, frontend moderno y metodologías docentes técnicas.
 GitHub: [https://github.com/OslarCode/OslarCode](https://github.com/OslarCode/OslarCode)
-
----
 
 ## Contribuciones
 
