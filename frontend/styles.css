@@ -1,0 +1,12 @@
+body {
+  min-height: 100vh;
+}
+
+#resultado .pokemon-name {
+  text-transform: capitalize;
+}
+
+.pokemon-type-badge {
+  text-transform: capitalize;
+  margin-right: 0.25rem;
+}
